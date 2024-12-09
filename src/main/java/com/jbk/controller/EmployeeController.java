@@ -81,10 +81,6 @@ public class EmployeeController {
 		return "update-employee";
 	}
 
-	@GetMapping("/profile")
-	public String userProfile() {
-		return "profile";
-	}
 
 	@GetMapping("/search-or-update-employee")
 	public String updateEmployee(@RequestParam(defaultValue = "") String employeeId, Model model) {

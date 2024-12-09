@@ -28,9 +28,9 @@
         <a href="/search-employee" class="mx-2">Search Employee</a>
         <a href="/delete-employee" class="mx-2">Delete Employee</a>
         <a href="/all-employees" class="mx-2">All Employee</a>
-        <a href="/update-employee" class="mx-2">Update Employee</a>
+        <a href="/search-or-update-employee" class="mx-2">Update Employee</a>
+        <a href="/profile/${user.userName}" class="mx-2">Profile</a>
         <a href="/logout" class="mx-2">Logout</a>
-         <a href="/profile" class="mx-4">Profile</a>
     </div>
 </body>
 </html>

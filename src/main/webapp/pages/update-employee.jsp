@@ -55,25 +55,23 @@ body {
 		<!-- If Employee is Found, Show Update Form -->
 		<c:if test="${not empty employee}">
 			<form action="/update-employee" method="post">
-				<!-- Employee ID (hidden) -->
 				<input type="hidden" name="employeeId" value="${employee.employeeId}"/>
 
-				<!-- Employee Name -->
 				<div class="mb-3">
 					<label for="employeeName" class="form-label">Employee Name</label>
 					<input type="text" class="form-control" id="employeeName" name="employeeName" value="${employee.employeeName}" required>
 				</div>
-				<!-- Department -->
+				
 				<div class="mb-3">
 					<label for="department" class="form-label">Department</label>
 					<input type="text" class="form-control" id="department" name="department" value="${employee.department}" required>
 				</div>
-				<!-- Salary -->
+				
 				<div class="mb-3">
 					<label for="salary" class="form-label">Salary</label>
 					<input type="number" class="form-control" id="salary" name="salary" value="${employee.salary}" required>
 				</div>
-				<!-- Submit Button -->
+				
 				<div class="text-center">
 					<button type="submit" class="btn btn-success">Update Employee</button>
 				</div>

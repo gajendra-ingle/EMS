@@ -106,14 +106,15 @@ public class EmployeeDao {
 	}
 
 	public boolean updateEmployeeInfo(Employee employee) {
-		try(Session session = sessionFactory.openSession()) {
-			
-			session.update(employee);
+		try (Session session = sessionFactory.openSession()) {
+			Employee dbEmployee = session.get(Employee.class, employee.getEmployeeId());
+			dbEmployee.setEmployeeName(employee.getEmployeeName());
+			dbEmployee.setDepartment(employee.getDepartment());
+			dbEmployee.setSalary(employee.getSalary());
+
+			session.update(dbEmployee);
 			session.beginTransaction().commit();
 			return true;
-			
-			
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
