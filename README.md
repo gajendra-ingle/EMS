@@ -33,31 +33,31 @@ The **Employee Management System** is a web application built using **Spring MVC
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/Home.png)
+![Home Page](src/main/webapp/screenshots/Home.png)
 
 ### User Register Page
-![Register](screenshots/Register.png)
+![Register](src/main/webapp/screenshots/Register.png)
 
 ### User Login Page
-![Login](screenshots/Login.png)
+![Login](src/main/webapp/screenshots/Login.png)
 
 ### Welcome Page Page
-![Welcome](screenshots/welcome-page.png)
+![Welcome](src/main/webapp/screenshots/welcome-page.png)
 
 ### Add Employee
-![Add Employee](screenshots/add-employee.png)
+![Add Employee](src/main/webapp/screenshots/add-employee.png)
 
 ### View Employees
-![View Employees](screenshots/view-employees.png)
+![View Employees](src/main/webapp/screenshots/view-employees.png)
 
 ### Update Employee
-![Update Employee](screenshots/update-employee.png)
+![Update Employee](src/main/webapp/screenshots/update-employee.png)
 
 ### Delete Employee
-![Delete Employee](screenshots/delete-employee.png)
+![Delete Employee](src/main/webapp/screenshots/delete-employee.png)
 
 ### Search Employee
-![Search Employee](screenshots/search-employee.png)
+![Search Employee](src/main/webapp/screenshots/search-employee.png)
 
-
-
+### User Profile
+![User Profile](src/main/webapp/screenshots/Profile.png)
