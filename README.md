@@ -4,14 +4,14 @@ The **Employee Management System** is a web application built using **Spring MVC
 
 ---
 
-## Features
+## 📋 Features
 
-### User Module
+### 👤 User Module
 - **User Registration**: Allows new users to create an account.
 - **User Login**: Enables users to access the application securely.
 - **Update Profile**: Users can edit their profile details.
 
-### Employee Module
+### 🧑‍💼 Employee Module
 - **Add Employee**: Users can add new employees.
 - **Search Employee**: Allows searching for employees by criteria.
 - **Update Employee**: Modify existing employee records.
@@ -20,7 +20,7 @@ The **Employee Management System** is a web application built using **Spring MVC
 
 ---
 
-## Tech Stack
+## 💻 Tech Stack
 
 - **Backend**: Spring MVC
 - **ORM**: Hibernate
@@ -30,7 +30,7 @@ The **Employee Management System** is a web application built using **Spring MVC
 
 ---
 
-## Screenshots
+## 🖼️ Screenshots
 
 ### Home Page
 ![Home Page](src/main/webapp/screenshots/Home.png)
@@ -61,3 +61,7 @@ The **Employee Management System** is a web application built using **Spring MVC
 
 ### User Profile
 ![User Profile](src/main/webapp/screenshots/Profile.png)
+
+---
+Thank you for exploring! <br>
+Happy coding! 🚀
