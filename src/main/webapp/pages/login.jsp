@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,9 +73,6 @@ body {
 	text-decoration: underline;
 }
 
-h3 {
-	color: red;
-}
 </style>
 </head>
 <body>
@@ -84,7 +82,11 @@ h3 {
 				<div class="login-container card shadow-sm">
 					<div class="card-body">
 						<h2>Login</h2>
-						<h3>${msg}</h3>
+						<c:if test="${msg != null}">
+							<script>
+								alert("${msg}");
+							</script>
+						</c:if>
 						<form action="/login" method="post">
 							<div class="form-group">
 								<label for="username">Username</label> <input type="text"
